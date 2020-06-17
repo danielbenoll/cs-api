@@ -61,3 +61,7 @@ O arquivo ´.env´ é necessario para que o programa inicie, caso não for criad
 E o modifique.
 
 # COMANDOS
+
+Cada tabela tem as suas proprias rotas, mas para começar é necessario criar um usuário para conseguir um token por meio de um login.
+
+### User
