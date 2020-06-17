@@ -1,4 +1,4 @@
-# COUNTER STRIKE: Global Offensive API
+# COUNTER STRIKE: Global Offensive 🔫 API
 
 Este projeto vem pre-configurado com.
 
