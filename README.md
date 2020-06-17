@@ -6,7 +6,7 @@ Este projeto vem pre-configurado com.
 2. Authentication
 3. CORS
 4. Lucid ORM
-5. Migrations and seeds
+5. Migrations e seeds
 
 ## Setup
 
