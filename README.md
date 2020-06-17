@@ -69,8 +69,11 @@ Criar um Usuário:
 ```/api/v1/users``` 
 via POST
 
+
 Login:
-```/api/v1/users/token``` via POST
+
+```/api/v1/users/token``` 
+via POST
 
 ### User
 
