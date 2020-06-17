@@ -1,6 +1,6 @@
-# Adonis API application
+# COUNTER STRIKE: Global Offensive API
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+Este projeto vem pre-configurado com.
 
 1. Bodyparser
 2. Authentication
@@ -10,18 +10,12 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 
 ## Setup
 
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
+Logo depois que der um git clone, rode este comando: `npm install`. Para criar a pasta ´node_modules´ .
 
 
 ### Migrations
 
-Run the following command to run startup migrations.
+Para executar os Migrations.
 
 ```js
 adonis migration:run
