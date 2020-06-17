@@ -20,3 +20,9 @@ Para executar os Migrations.
 ```js
 adonis migration:run
 ```
+
+Para executar os Migrations com as Seeders.
+
+```js
+adonis migration:run --seed
+```
