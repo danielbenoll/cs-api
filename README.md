@@ -1,5 +1,7 @@
 # COUNTER STRIKE: Global Offensive 🔫 API
 
+Esse projeto foi criado no intuito de fazer uma API para um projeto da faculdade. Estou disponibilizando gratuitamente para vins estudantis.
+
 Este projeto vem pre-configurado com.
 
 1. Bodyparser
