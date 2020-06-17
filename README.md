@@ -66,38 +66,38 @@ E o modifique.
 
 Cada tabela tem as suas proprias rotas, mas para começar é necessario criar um usuário para conseguir um token por meio de um login.
 
-Criar um Usuário:
+-Criar um Usuário:
 
 ```/api/v1/users``` 
 via POST
 
 
-Login:
+-Login:
 
 ```/api/v1/users/token``` 
 via POST
 
 ### User
 
-Listar Usuários:
+-Listar Usuários:
 
 ```/api/v1/users``` 
 via GET
 
 
-Listar um Usuário específico com detalhes:
+-Listar um Usuário específico com detalhes:
 
 ```/api/v1/users/{id}``` 
 via GET
 
 
-Alterar dados de um Usuário:
+-Alterar dados de um Usuário:
 
 ```/api/v1/users/{id}``` 
 via PUT
 
 
-Exluir um Usuário:
+-Exluir um Usuário:
 
 ```/api/v1/users/{id}``` 
 via DELETE
@@ -105,25 +105,25 @@ via DELETE
 
 ### Armamento
 
-Listar Armamentos:
+-Listar Armamentos:
 
 ```/api/v1/armamentos``` 
 via GET
 
 
-Listar um Armamento específico com detalhes:
+-Listar um Armamento específico com detalhes:
 
 ```/api/v1/armamentos/{id}```
 via GET
 
 
-Alterar dados de um Armamento:
+-Alterar dados de um Armamento:
 
 ```/api/v1/armamentos/{id}```
 via PUT
 
 
-Exluir um Armamento:
+-Exluir um Armamento:
 
 ```/api/v1/armamentos/{id}``` 
 via DELETE
@@ -131,25 +131,25 @@ via DELETE
 
 ### Classe
 
-Listar Classes:
+-Listar Classes:
 
 ```/api/v1/classes``` 
 via GET
 
 
-Listar uma Classe específica com detalhes:
+-Listar uma Classe específica com detalhes:
 
 ```/api/v1/classes/{id}``` 
 via GET
 
 
-Alterar dados de uma Classe:
+-Alterar dados de uma Classe:
 
 ```/api/v1/classes/{id}``` 
 via PUT
 
 
-Exluir uma Classe:
+-Exluir uma Classe:
 
 ```/api/v1/classes/{id}``` 
 via DELETE
@@ -157,25 +157,25 @@ via DELETE
 
 ### Foto
 
-Listar Fotos:
+-Listar Fotos:
 
 ```/api/v1/foto``` 
 via GET
 
 
-Listar uma Foto específica com detalhes:
+-Listar uma Foto específica com detalhes:
 
 ```/api/v1/foto/{id}``` 
 via GET
 
 
-Alterar dados de uma Foto:
+-Alterar dados de uma Foto:
 
 ```/api/v1/foto/{id}``` 
 via PUT
 
 
-Exluir uma Foto:
+-Exluir uma Foto:
 
 ```/api/v1/foto/{id}``` 
 via DELETE
@@ -183,25 +183,25 @@ via DELETE
 
 ### Mapa
 
-Listar Mapas:
+-Listar Mapas:
 
 ```/api/v1/mapas``` 
 via GET
 
 
-Listar um Mapa específico com detalhes:
+-Listar um Mapa específico com detalhes:
 
 ```/api/v1/mapas/{id}``` 
 via GET
 
 
-Alterar dados de um Mapa:
+-Alterar dados de um Mapa:
 
 ```/api/v1/mapas/{id}``` 
 via PUT
 
 
-Exluir um Mapa:
+-Exluir um Mapa:
 
 ```/api/v1/mapas/{id}``` 
 via DELETE
@@ -209,25 +209,25 @@ via DELETE
 
 ### Modo
 
-Listar Modos:
+-Listar Modos:
 
 ```/api/v1/modos``` 
 via GET
 
 
-Listar um Modo específico com detalhes:
+-Listar um Modo específico com detalhes:
 
 ```/api/v1/modos/{id}``` 
 via GET
 
 
-Alterar dados de um Modo:
+-Alterar dados de um Modo:
 
 ```/api/v1/modos/{id}```
 via PUT
 
 
-Exluir um Modo:
+-Exluir um Modo:
 
 ```/api/v1/modos/{id}``` 
 via DELETE
@@ -235,25 +235,25 @@ via DELETE
 
 ### Mapa-Modo
 
-Listar Mapa-Modos:
+-Listar Mapa-Modos:
 
 ```/api/v1/mapa-modos``` 
 via GET
 
 
-Listar um Mapa-Modo específico com detalhes:
+-Listar um Mapa-Modo específico com detalhes:
 
 ```/api/v1/mapa-modos/{id}``` 
 via GET
 
 
-Alterar dados de um Mapa-Modo:
+-Alterar dados de um Mapa-Modo:
 
 ```/api/v1/mapa-modos/{id}``` 
 via PUT
 
 
-Exluir um Mapa-Modo:
+-Exluir um Mapa-Modo:
 
 ```/api/v1/mapa-modos/{id}``` 
 via DELETE
@@ -261,25 +261,25 @@ via DELETE
 
 ### País
 
-Listar Países:
+-Listar Países:
 
 ```/api/v1/paises``` 
 via GET
 
 
-Listar um País específico com detalhes:
+-Listar um País específico com detalhes:
 
 ```/api/v1/paises/{id}``` 
 via GET
 
 
-Alterar dados de um País:
+-Alterar dados de um País:
 
 ```/api/v1/paises/{id}``` 
 via PUT
 
 
-Exluir um País:
+-Exluir um País:
 
 ```/api/v1/paises/{id}``` 
 via DELETE
@@ -287,25 +287,25 @@ via DELETE
 
 ### Personagem
 
-Listar Personagens:
+-Listar Personagens:
 
 ```/api/v1/personagens``` 
 via GET
 
 
-Listar um Personagem específico com detalhes:
+-Listar um Personagem específico com detalhes:
 
 ```/api/v1/personagens/{id}``` 
 via GET
 
 
-Alterar dados de um Personagem:
+-Alterar dados de um Personagem:
 
 ```/api/v1/personagens/{id}``` 
 via PUT
 
 
-Exluir um Personagem:
+-Exluir um Personagem:
 
 ```/api/v1/personagens/{id}``` 
 via DELETE
@@ -313,25 +313,25 @@ via DELETE
 
 ### Seção
 
-Listar Seções:
+-Listar Seções:
 
 ```/api/v1/secoes``` 
 via GET
 
 
-Listar uma Seção específica com detalhes:
+-Listar uma Seção específica com detalhes:
 
 ```/api/v1/secoes/{id}``` 
 via GET
 
 
-Alterar dados de uma Seção:
+-Alterar dados de uma Seção:
 
 ```/api/v1/secoes/{id}``` 
 via PUT
 
 
-Exluir uma Seção:
+-Exluir uma Seção:
 
 ```/api/v1/secoes/{id}``` 
 via DELETE
