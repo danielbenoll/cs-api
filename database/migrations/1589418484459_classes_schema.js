@@ -9,7 +9,7 @@ class ClassesSchema extends Schema {
       table.increments()
       table.string('lado', 45).notNullable().unique()
       table.string('descricao', 200).notNullable()
-      table.string('img', 100)
+      table.string('img', 700)
       table.timestamps()
     })
   }
