@@ -8,7 +8,7 @@ class FotoSchema extends Schema {
     this.create('fotos', (table) => {
       table.increments()
       table.integer('mapa_id').unsigned().references('id').inTable('mapas').notNullable()
-      table.string('foto', 100).notNullable()
+      table.string('foto', 280).notNullable()
       table.timestamps()
     })
   }
