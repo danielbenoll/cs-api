@@ -10,7 +10,7 @@ class PersonagemSchema extends Schema {
       table.integer('pais_id').unsigned().references('id').inTable('paises').notNullable()
       table.integer('classe_id').unsigned().references('id').inTable('classes').notNullable()
       table.string('nome', 45).notNullable().unique()
-      table.string('foto', 100)
+      table.string('foto', 150)
       table.timestamps()
     })
   }

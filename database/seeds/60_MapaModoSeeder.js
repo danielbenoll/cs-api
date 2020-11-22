@@ -50,6 +50,10 @@ class MapaModoSeeder {
 			{id: '30', mapa_id: '11', modo_id: '3'},
       {id: '31', mapa_id: '12', modo_id: '3'},
       {id: '42', mapa_id: '15', modo_id: '3'},
+      {id: '43', mapa_id: '17', modo_id: '1'},
+      {id: '44', mapa_id: '18', modo_id: '1'},
+      {id: '45', mapa_id: '19', modo_id: '1'},
+      {id: '46', mapa_id: '16', modo_id: '1'},
     ])
   }
 }
