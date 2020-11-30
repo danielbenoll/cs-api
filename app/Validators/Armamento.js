@@ -10,7 +10,7 @@ class Armamento extends AbstractValidator{
       pais_id: 'integer',
       nome: 'required|unique:armamentos|max:45|min:2',
       descricao: 'required|max:400',
-      foto: 'max:200',
+      foto: 'max:400',
     }
   }
 }
