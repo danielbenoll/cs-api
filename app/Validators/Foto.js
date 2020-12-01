@@ -6,7 +6,7 @@ class Foto extends AbstractValidator{
   get rules () {
     return {
       mapa_id: 'integer|required',
-      foto: 'required|max:100',
+      foto: 'required|max:400',
     }
   }
 }

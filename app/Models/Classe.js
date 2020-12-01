@@ -48,6 +48,7 @@ class Classe extends Model {
     static getCampos(){
         return [
             'lado', 
+            'img', 
             'descricao'
         ]
     }

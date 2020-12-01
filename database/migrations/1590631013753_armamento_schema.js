@@ -12,7 +12,7 @@ class ArmamentoSchema extends Schema {
       table.integer('pais_id').unsigned().references('id').inTable('paises')
       table.string('nome', 45).notNullable().unique()
       table.string('descricao', 400).notNullable()
-      table.string('foto', 200)
+      table.string('foto', 400)
       table.timestamps()
     })
   }

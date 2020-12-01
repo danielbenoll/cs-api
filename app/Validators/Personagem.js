@@ -8,7 +8,7 @@ class Personagem extends AbstractValidator{
       pais_id: 'integer|required',
       classe_id: 'integer|required',
       nome: 'required|unique:personagens|max:45',
-      foto: 'max:150',
+      foto: 'max:400',
     }
   }
 }

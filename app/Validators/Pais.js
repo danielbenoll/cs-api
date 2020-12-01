@@ -6,7 +6,7 @@ class Pais extends AbstractValidator{
   get rules () {
     return {
       local: 'required|unique:paises|max:45',
-      bandeira: 'max:280',
+      bandeira: 'max:400',
     }
   }
 }

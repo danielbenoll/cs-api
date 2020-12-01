@@ -8,7 +8,7 @@ class PaisSchema extends Schema {
     this.create('paises', (table) => {
       table.increments()
       table.string('local', 45).notNullable().unique()
-      table.string('bandeira', 280)
+      table.string('bandeira', 400)
       table.timestamps()
     })
   }

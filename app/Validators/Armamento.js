@@ -8,7 +8,8 @@ class Armamento extends AbstractValidator{
       classe_id: 'integer',
       secao_id: 'integer|required',
       pais_id: 'integer',
-      nome: 'required|unique:armamentos|max:45|min:2',
+      // nome: 'required|unique:armamentos|max:45|min:2',
+      nome: 'required|max:45|min:2',
       descricao: 'required|max:400',
       foto: 'max:400',
     }
