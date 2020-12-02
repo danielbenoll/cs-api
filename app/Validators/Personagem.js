@@ -4,10 +4,11 @@ const AbstractValidator = use('App/Validators/AbstractValidator')
 
 class Personagem extends AbstractValidator{
   get rules () {
+    const id = this.ctx.params.id
     return {
       pais_id: 'integer|required',
       classe_id: 'integer|required',
-      nome: 'required|unique:personagens|max:45',
+      nome: `required|unique:personagens,id,${this.id}|max:45`,
       foto: 'max:400',
     }
   }

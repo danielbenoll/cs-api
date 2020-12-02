@@ -4,8 +4,9 @@ const AbstractValidator = use('App/Validators/AbstractValidator')
 
 class Classe extends AbstractValidator{
   get rules () {
+    const id = this.ctx.params.id
     return {
-      lado: 'required|max:45',
+      lado: `unique:classes,id,${this.id}|required|max:45`,
       descricao: 'required|max:200',
       img: 'max:700'
     }

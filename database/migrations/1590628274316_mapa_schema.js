@@ -8,7 +8,7 @@ class MapaSchema extends Schema {
     this.create('mapas', (table) => {
       table.increments()
       table.integer('pais_id').unsigned().references('id').inTable('paises').notNullable()
-      table.string('nome', 45).notNullable()
+      table.string('nome', 45).notNullable().unique()
       table.timestamps()
     })
   }
